@@ -1,5 +1,5 @@
 {
-    "name": "explicador/auth",
+    "name": "explicador-dependency/auth",
     "type": "library",
     "license": "MIT",
     "authors": [
