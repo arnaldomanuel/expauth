@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 
-use App\Models\User;
+use App\User;
 use App\Traits\ExplicadorOauthV1;
 use Exception;
 use Illuminate\Http\Request;
