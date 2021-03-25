@@ -172,7 +172,7 @@ class OauthController extends Controller
 
     public function handleFacebookCallback(){
 
-        $user = Socialite::driver('facebook')->user();
+        $user = Socialite::driver('facebook')->stateless()->user();
         
         // if the user exits, use that user and login
         $finduser = User::where('facebook_id', $user->id)
